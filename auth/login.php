@@ -1,9 +1,5 @@
 <?php
 
-//Credenciales
-//id cliente= 9217896802-t7s723046409rtni55og3oj1hodahk4g.apps.googleusercontent.com
-//password cliente = Fd8YJnm95BZxXxS3MRH4NYdy
-
 //start session on web page
 session_start();
 
@@ -14,10 +10,10 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('9217896802-t7s723046409rtni55og3oj1hodahk4g.apps.googleusercontent.com');
+$google_client->setClientId('Client id');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('Fd8YJnm95BZxXxS3MRH4NYdy');
+$google_client->setClientSecret('Secret client');
 
 //Set the OAuth 2.0 Redirect URI
 $google_client->setRedirectUri('http://localhost/authGoogle/index.php');
