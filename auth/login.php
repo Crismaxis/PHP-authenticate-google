@@ -9,13 +9,13 @@ require_once 'vendor/autoload.php';
 //Make object of Google API Client for call Google API
 $google_client = new Google_Client();
 
-//Set the OAuth 2.0 Client ID
+//Set the OAuth Client ID
 $google_client->setClientId('Client id');
 
-//Set the OAuth 2.0 Client Secret key
+//Set the OAuth Client Secret key
 $google_client->setClientSecret('Secret client');
 
-//Set the OAuth 2.0 Redirect URI
+//Set the OAuth Redirect URI
 $google_client->setRedirectUri('http://localhost/authGoogle/index.php');
 
 // to get the email and profile 
