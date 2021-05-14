@@ -1,0 +1,13 @@
+{
+    "name": "acer/auth-google",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristhian David Mahecha G.",
+            "email": "Cristhian.Mahecha@outlook.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.9"
+    }
+}
